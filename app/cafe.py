@@ -1,8 +1,9 @@
 import datetime
+
 from typing import Dict
 from app.errors import (NotVaccinatedError,
-                     OutdatedVaccineError,
-                     NotWearingMaskError)
+                        OutdatedVaccineError,
+                        NotWearingMaskError)
 
 
 class Cafe:
