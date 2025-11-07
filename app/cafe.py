@@ -1,12 +1,13 @@
 import datetime
 from typing import Dict
 from .errors import (NotVaccinatedError,
-                     OutdatedVaccineError, NotWearingMaskError)
+                     OutdatedVaccineError,
+                     NotWearingMaskError)
 
 
 class Cafe:
     def __init__(self, name: str) -> None:
-        self.name: str = name
+        self.name = name
 
     def visit_cafe(self, visitor: Dict) -> str:
         name: str = visitor.get("name", "Unknown visitor")

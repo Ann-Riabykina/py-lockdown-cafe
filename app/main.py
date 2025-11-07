@@ -1,6 +1,7 @@
 from typing import List, Dict
+
 from app.cafe import Cafe
-from app.errors import VaccineError, NotWearingMaskError
+from app.errors import (VaccineError, NotWearingMaskError)
 
 
 def go_to_cafe(friends: List[Dict], cafe: Cafe) -> str:
